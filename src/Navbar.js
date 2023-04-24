@@ -4,11 +4,17 @@ export default function Navbar() {
     const path = window.location.pathname
     
     return <nav className="nav">
-        <Link to="/" className="site-title">Portfolio React</Link>
+        
         <ul>
-            <CustomLink to={`/pricing`}>Pricing</CustomLink>
+            <CustomLink to={`/home`}>Home</CustomLink>
+
+            <CustomLink to={`/work`}>Work</CustomLink>
                 
             <CustomLink to={`/about`}>About</CustomLink>
+
+            <CustomLink to={`/contact`}>Contact</CustomLink>
+
+            <CustomLink to={`/resume`}>Resume</CustomLink>
         </ul>
     </nav>
 }
@@ -16,17 +22,18 @@ export default function Navbar() {
 function CustomLink({ to, children, ... props}) {
 
     const resolvedPath = useResolvedPath(to)
-    //if end true, absolute path has to match
-    const isActive = useMatch({ path: resolvedPath.pathname, end: false})
+    
+    let isActive = useMatch({ path: resolvedPath.pathname, end: false})
 
-    const path = window.location.pathname
+    const path = window.location.hash
 
-    console.log(path);
-    if (path === "/pricing/7") {
+    console.log(window.location.hash);
+    if (path === "#/") {
         id = 27;
     } else {
         id = 7;
     }
+    
     console.log(id);
 
     return (
