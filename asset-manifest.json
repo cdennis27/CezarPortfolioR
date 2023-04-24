@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CezarPortfolioR/static/css/main.66451889.css",
+    "main.js": "/CezarPortfolioR/static/js/main.b316fd06.js",
+    "index.html": "/CezarPortfolioR/index.html",
+    "main.66451889.css.map": "/CezarPortfolioR/static/css/main.66451889.css.map",
+    "main.b316fd06.js.map": "/CezarPortfolioR/static/js/main.b316fd06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66451889.css",
+    "static/js/main.b316fd06.js"
+  ]
+}
