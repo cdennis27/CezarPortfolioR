@@ -21,7 +21,7 @@ export default function Home() {
             I acquired experience in design, debug and develop software while
             managing projects and campaigns.</p>
         </div>
-        <div className="home-banner-about-right">
+        <a href={`#/about/10`} className="home-banner-about-right">
           <div className="home-skills">
             <h2 className="skills">my skills</h2>
             <h2 className="skills-right"><p className='oval'></p></h2>
@@ -47,10 +47,10 @@ export default function Home() {
             <li className="home-list-skills-item">Kubernetes</li>
             <li className="home-list-skills-item">AWS</li>
             <li className="home-list-skills-item">Azure</li>
-            
+
 
           </div>
-        </div>
+        </a>
       </div>
     </section>
   )

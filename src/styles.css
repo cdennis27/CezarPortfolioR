@@ -272,7 +272,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.8rem;
-    padding: 2vw;
+    padding: 2vw 2vw 2vw 2vw;
 }
 
 .home-list-skills-item {
