@@ -30,6 +30,9 @@ function CustomLink({ to, children, ... props}) {
     console.log(window.location.hash);
     if (path === "#/") {
         id = 27;
+        return document.location = "#/home";
+    } else if (path === "#/home/7") {
+        id = 27;
     } else {
         id = 7;
     }
