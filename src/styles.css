@@ -75,7 +75,7 @@ body {
 .nav li.active {
     /*background-color: rgb(53, 53, 53);*/
     /*box-shadow: inset 0px 0px 5px 5px rgba(77, 77, 77, 0.50);*/
-    text-shadow: 5px 4px 5px var(--fontDark);
+    text-shadow: 5px 5px 10px black;
     color: var(--fontMedium);
     /*display: none !important;*/
 }
@@ -200,7 +200,6 @@ body {
     align-items: center;
     width: 60%;
     height: 100%;
-    
     padding: 0 0 0 0;
     margin: 0 5vw 0 0;
     overflow: hidden;
