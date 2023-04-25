@@ -1,8 +1,10 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom';
+import { Outlet, useParams } from 'react-router-dom';
 import myDrawing from '../assets/images/myDrawing.gif';
 
 export default function Home() {
+  
+  
   return (
     <section>
       <div className="home-banner">
@@ -53,7 +55,7 @@ export default function Home() {
           </div>
         </a>
       </div>
-      <div className="home-subtitle">
+      <div name="work" className="home-subtitle">
         RecentWork
       </div>
       <div className="home-banner">
