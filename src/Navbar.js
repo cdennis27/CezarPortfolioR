@@ -6,7 +6,7 @@ export default function Navbar() {
     return <nav className="nav">
         
         <ul>
-            <CustomLink to={`/home`}>Home</CustomLink>
+            <CustomLink to={`/home`} onClick={() => scrolls(0)} >Home</CustomLink>
 
             <CustomLink to={"/work"}>Work</CustomLink>
                 
@@ -18,9 +18,10 @@ export default function Navbar() {
         </ul>
     </nav>
 }
-function Scrolls() {
-    window.scrollTo(0, 500);
+function scrolls(x) {
+    window.scroll({top:x, left:0, behavior: "smooth"});
     console.log("scrolling");
+    console.log(x);
 }
 function CustomLink({ to, children, ... props}) {
 
@@ -34,7 +35,7 @@ function CustomLink({ to, children, ... props}) {
     if (path === "#/work/7") {
         id = 7;
         document.location = "#/work/27";
-        Scrolls();
+        scrolls();
         return;
     } else if (path === "#/home/27") {
         id = 27;
