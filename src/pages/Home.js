@@ -53,6 +53,18 @@ export default function Home() {
           </div>
         </a>
       </div>
+      <div className="home-subtitle">
+        RecentWork
+      </div>
+      <div className="home-banner">
+        <div className="home-banner-left">
+          <h1>Software Engineer</h1>
+          <p>Focused on building and maintenaing Hardware, Web Applications and Databases. Experienced in leading teams to complete projects on time and in budget.</p>
+        </div>
+        <div className="home-banner-right">
+          <img className="home-banner-img" src={myDrawing} alt="drawing of me" />
+        </div>
+      </div>
 
       <Outlet />
     </section>

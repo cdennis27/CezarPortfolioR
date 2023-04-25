@@ -2,14 +2,14 @@ import { Link, useResolvedPath, useMatch } from "react-router-dom"
 let id = 7;
 export default function Navbar() {
     const path = window.location.pathname
-    console.log(path);
+    
     return <nav className="nav">
-
+        
         <ul>
             <CustomLink to={`/home`}>Home</CustomLink>
 
             <CustomLink to={`/work`}>Work</CustomLink>
-
+                
             <CustomLink to={`/about`}>About</CustomLink>
 
             <CustomLink to={`/contact`}>Contact</CustomLink>
@@ -19,11 +19,11 @@ export default function Navbar() {
     </nav>
 }
 
-function CustomLink({ to, children, ...props }) {
+function CustomLink({ to, children, ... props}) {
 
     const resolvedPath = useResolvedPath(to)
-
-    let isActive = useMatch({ path: resolvedPath.pathname, end: true })
+    
+    let isActive = useMatch({ path: resolvedPath.pathname, end: false})
 
     const path = window.location.hash
 
@@ -36,7 +36,7 @@ function CustomLink({ to, children, ...props }) {
     } else {
         id = 7;
     }
-
+    
     console.log(id);
 
     return (
