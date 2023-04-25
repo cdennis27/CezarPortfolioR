@@ -18,8 +18,10 @@ function App() {
   <div className="container">
   <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/home/:id" element={<Home />} />
-    <Route path="/home" element={<Home />} />
+    <Route path="/home" element={<Home />} >    
+
+    <Route path="27" element={<Resume />} />
+    </Route>
     <Route path="/work/:id" element={<Work />} />
     <Route path="/about/:id" element={<About />} />
     <Route path="/contact/:id" element={<Contact />} />
