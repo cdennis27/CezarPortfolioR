@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
 import myDrawing from '../assets/images/myDrawing.gif';
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
             I acquired experience in design, debug and develop software while
             managing projects and campaigns.</p>
         </div>
-        <a href={`#/about/10`} className="home-banner-about-right">
+        <a href={`#/home/27`} className="home-banner-about-right">
           <div className="home-skills">
             <h2 className="skills">my skills</h2>
             <h2 className="skills-right"><p className='oval'></p></h2>
@@ -52,6 +53,8 @@ export default function Home() {
           </div>
         </a>
       </div>
+
+      <Outlet />
     </section>
   )
 }
