@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CezarPortfolioR/static/css/main.b5191320.css",
-    "main.js": "/CezarPortfolioR/static/js/main.bb7bb8ea.js",
+    "main.js": "/CezarPortfolioR/static/js/main.cfa80c65.js",
     "static/media/myDrawing.gif": "/CezarPortfolioR/static/media/myDrawing.75e0b6061505d9e59d9c.gif",
     "index.html": "/CezarPortfolioR/index.html",
     "main.b5191320.css.map": "/CezarPortfolioR/static/css/main.b5191320.css.map",
-    "main.bb7bb8ea.js.map": "/CezarPortfolioR/static/js/main.bb7bb8ea.js.map"
+    "main.cfa80c65.js.map": "/CezarPortfolioR/static/js/main.cfa80c65.js.map"
   },
   "entrypoints": [
     "static/css/main.b5191320.css",
-    "static/js/main.bb7bb8ea.js"
+    "static/js/main.cfa80c65.js"
   ]
 }
