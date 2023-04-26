@@ -60,19 +60,21 @@ export default function Home() {
         RecentWork
       </div>
       <div className="work-container">
-        <div className="work-container-left">
-          <a href="https://jace1971.herokuapp.com/"><img className="work-img" src={work1} alt="drawing of me" /></a>
-
-        </div>
+        <a href="https://jace1971.herokuapp.com/" className="work-container-left">
+          <img className="work-img" src={work1} alt="drawing of me" />
+          <div className="work-overlay"></div>
+        </a>
         <div className="work-container-right">
           <div className="work-tag">
             <h1>Jace</h1>
-            <div className="work-text-container">
-              <p><span className="dark-font-color">Focused</span> on building and maintenaing Hardware, Web Applications and Databases.Experienced in leading teams to complete projects on time and in budget.</p>
-            </div>
+            <a href="https://jace1971.herokuapp.com/" className="work-text-container">
+              <p><span className="dark-font-color">E-commerce website. </span>App that allows users to order dishes online at restaurant, using table QR code tag, kitchen side orders board, user authentication and payment structure implemented.</p>
+            </a>
             <ul className="work-skills">
-              <li><a href="https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,MongoDB%20%E2%80%94%20document%20database" target="_blank">MERN</a></li>
-              <li><a href="https://graphql.org/" target="_blank">GraphQL</a></li>
+              <li><a href="https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,MongoDB%20%E2%80%94%20document%20database" target="_blank" rel="noopener noreferrer">MERN</a></li>
+              <li><a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a></li>
+              <li><a href="https://www.google.com/search?q=user+authentication&sxsrf=APwXEddm0LVCHmxmM5KD8oZWgrmxMQV2pA%3A1682533061179&ei=xWpJZMDPCqqdptQPrrW5yAM&ved=0ahUKEwiAxryLlMj-AhWqjokEHa5aDjkQ4dUDCBA&uact=5&oq=user+authentication&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIHCAAQigUQQzIFCAAQgAQyBwgAEIoFEEMyBwgAEIoFEEMyBQgAEIAEMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADSgQIQRgAUN0FWN0FYLMHaAFwAXgAgAFOiAFOkgEBMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp#bsht=Cgdic2h3Y2hwEgQIBDAB" target="_blank" rel="noopener noreferrer">User Auth</a></li>
+              <li><a href="https://stripe.com/" target="_blank" rel="noopener noreferrer">Stripe</a></li>
             </ul>
           </div>
         </div>
