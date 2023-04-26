@@ -1,10 +1,11 @@
 import React from 'react'
 import { Outlet, useParams } from 'react-router-dom';
 import myDrawing from '../assets/images/myDrawing.gif';
+import work1 from '../assets/images/jaceScreenshot.jpg';
 
 export default function Home() {
-  
-  
+
+
   return (
     <section>
       <div className="home-banner">
@@ -36,20 +37,20 @@ export default function Home() {
             <li className="home-list-skills-item">React</li>
             <li className="home-list-skills-item">Node.js</li>
             <li className="home-list-skills-item">Express</li>
-            <li className="home-list-skills-item">MongoDB</li>
+            <li className="home-list-skills-item">OOP</li>
             <li className="home-list-skills-item">MySQL</li>
-            <li className="home-list-skills-item">Python</li>
-            <li className="home-list-skills-item">C++</li>
-            <li className="home-list-skills-item">C#</li>
-            <li className="home-list-skills-item">Java</li>
-            <li className="home-list-skills-item">PHP</li>
-            <li className="home-list-skills-item">Linux</li>
-            <li className="home-list-skills-item">Windows</li>
+            <li className="home-list-skills-item">MongoDB</li>
+            <li className="home-list-skills-item">MVC</li>
+            <li className="home-list-skills-item">MERN</li>
+            <li className="home-list-skills-item">Handlebars</li>
+            <li className="home-list-skills-item">JQuery</li>
+            <li className="home-list-skills-item">JSON</li>
+            <li className="home-list-skills-item">ArduinoIDE</li>
             <li className="home-list-skills-item">Git</li>
-            <li className="home-list-skills-item">Docker</li>
-            <li className="home-list-skills-item">Kubernetes</li>
+            <li className="home-list-skills-item">GraphQL</li>
+            <li className="home-list-skills-item">SaaS</li>
             <li className="home-list-skills-item">AWS</li>
-            <li className="home-list-skills-item">Azure</li>
+            <li className="home-list-skills-item">Agile</li>
 
 
           </div>
@@ -58,13 +59,22 @@ export default function Home() {
       <div name="work" className="home-subtitle">
         RecentWork
       </div>
-      <div className="home-banner">
-        <div className="home-banner-left">
-          <h1>Software Engineer</h1>
-          <p>Focused on building and maintenaing Hardware, Web Applications and Databases. Experienced in leading teams to complete projects on time and in budget.</p>
+      <div className="work-container">
+        <div className="work-container-left">
+          <a href="https://jace1971.herokuapp.com/"><img className="work-img" src={work1} alt="drawing of me" /></a>
+
         </div>
-        <div className="home-banner-right">
-          <img className="home-banner-img" src={myDrawing} alt="drawing of me" />
+        <div className="work-container-right">
+          <div className="work-tag">
+            <h1>Jace</h1>
+            <div className="work-text-container">
+              <p><span className="dark-font-color">Focused</span> on building and maintenaing Hardware, Web Applications and Databases.Experienced in leading teams to complete projects on time and in budget.</p>
+            </div>
+            <ul className="work-skills">
+              <li><a href="https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,MongoDB%20%E2%80%94%20document%20database" target="_blank">MERN</a></li>
+              <li><a href="https://graphql.org/" target="_blank">GraphQL</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
