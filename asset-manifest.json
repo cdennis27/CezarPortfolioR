@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CezarPortfolioR/static/css/main.0fdf45f6.css",
-    "main.js": "/CezarPortfolioR/static/js/main.9aa56bf6.js",
+    "main.css": "/CezarPortfolioR/static/css/main.f604f474.css",
+    "main.js": "/CezarPortfolioR/static/js/main.d9c52180.js",
     "static/media/myDrawing.gif": "/CezarPortfolioR/static/media/myDrawing.75e0b6061505d9e59d9c.gif",
     "static/media/jaceScreenshot.jpg": "/CezarPortfolioR/static/media/jaceScreenshot.eb4de84eefbc29d15ca8.jpg",
     "index.html": "/CezarPortfolioR/index.html",
-    "main.0fdf45f6.css.map": "/CezarPortfolioR/static/css/main.0fdf45f6.css.map",
-    "main.9aa56bf6.js.map": "/CezarPortfolioR/static/js/main.9aa56bf6.js.map"
+    "main.f604f474.css.map": "/CezarPortfolioR/static/css/main.f604f474.css.map",
+    "main.d9c52180.js.map": "/CezarPortfolioR/static/js/main.d9c52180.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fdf45f6.css",
-    "static/js/main.9aa56bf6.js"
+    "static/css/main.f604f474.css",
+    "static/js/main.d9c52180.js"
   ]
 }
