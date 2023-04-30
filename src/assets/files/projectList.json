@@ -1,0 +1,132 @@
+{"project":[{
+    "name": "JACE",
+    "link": "https://jace1971.herokuapp.com/",
+    "image": "/CezarPortfolioR/images/jaceScreenshot.jpg",
+    "alt": "Classic Whipz screenshot",
+    "descriptionTitle": "E-commerce website.",
+    "description": "App that allows users to order dishes online at restaurant, using table QR code tag, kitchen side orders board, user authentication and payment structure implemented.",
+    "listAssets": [{
+      "listSkill": "MERN",
+      "listLink": "https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,MongoDB%20%E2%80%94%20document%20database"
+    },
+    {
+      "listSkill": "GraphQL",
+      "listLink": "https://graphql.org/"
+    },
+    {
+      "listSkill": "Stripe",
+      "listLink": "https://stripe.com"
+    },
+    {
+      "listSkill": "Git Repository",
+      "listLink": "https://github.com/cdennis27/Carsales-E-commerce-Stripe"
+    }
+    ],
+    "github": "https://github.com/cdennis27/JACE",
+    "work": "work1"
+},
+{
+  "name": "Classic Whipz",
+  "link": "https://classiccarwhipz.herokuapp.com/",
+  "image": "/CezarPortfolioR/images/CardealerappScreenshot.jpg",
+  "alt": "Classic Whipz screenshot",
+  "descriptionTitle": "E-commerce website.",
+  "description": "E-Commerce website using MySQL, Handlebars, Node.JS, Rest.API's, Stripe, Cookies and User Login with encrypted information deployed on Heroku.",
+  "listAssets": [{
+  "listSkill": "MVC",
+    "listLink": "https://www.google.com/search?q=model+view+controller+architecture&sxsrf=APwXEdfgro9A1NbL8R7SdJfqajLGRjMatg%3A1682565246537&ei=fuhJZNW2IIChptQP_q62gAE&oq=Model+View+Controller+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoHCAAQigUQQzoICAAQigUQkQI6CwguEIAEEMcBENEDOgsIABCKBRCxAxCDAToKCC4QigUQ1AIQQzoICAAQgAQQsQM6DgguEIoFELEDEMcBENEDOggILhCABBCxAzoLCAAQgAQQsQMQgwE6CAguEIAEEOUEOgoIABCABBAUEIcCSgQIQRgAUABY3iBgtDtoAHABeACAAWOIAZINkgECMjKYAQCgAQHAAQE&sclient=gws-wiz-serp#bsht=Cgdic2h3Y2hwEgQIBDAB"
+  },
+  {
+    "listSkill": "MySQL",
+    "listLink": "https://www.mysql.com/"
+  },
+  {
+    "listSkill": "Handlebars",
+    "listLink": "https://handlebarsjs.com/"
+  },
+  {
+    "listSkill": "Git Repository",
+    "listLink": "https://github.com/cdennis27/Carsales-E-commerce-Stripe"
+  }],
+  "github": "https://github.com/cdennis27/Carsales-E-commerce-Stripe",
+  "work": "work2"
+},
+{
+    "name": "Weather Spot",
+    "link": "https://cdennis27.github.io/WeatherApp/",
+    "image": "/CezarPortfolioR/images/Weatherapphomepage.jpg",
+    "alt": "Weather Spot screenshot",
+    "descriptionTitle": "Weather application",
+    "description": " using 3rd party RESTful API's to provide user's the time, weather conditions and predictions on any choosen location, past location choices are saved on local storage and easily accessible to user.",
+    "listAssets": [{
+    "listSkill": "HTML",
+      "listLink": "https://en.wikipedia.org/wiki/HTML"
+    },
+    {
+      "listSkill": "CSS",
+      "listLink": "https://en.wikipedia.org/wiki/CSS"
+    },
+    {
+      "listSkill": "JavaScript",
+      "listLink": "https://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+      "listSkill": "Git Repository",
+      "listLink": "https://github.com/cdennis27/WeatherApp"
+    }],
+    "github": "https://github.com/cdennis27/WeatherApp",
+    "work": "work3"
+  },
+  {
+    "name": "WebDev Blog",
+    "link": "https://webdev-blog.herokuapp.com/",
+    "image": "/CezarPortfolioR/images/webdevBlog.jpg",
+    "alt": "WebDev Blog screenshot",
+    "descriptionTitle": "Blog website.",
+    "description": "Blog website using MySQL, Handlebars, Node.JS, RESTful API's, Cookies and User Login with encrypted information deployed on Heroku.",
+    "listAssets": [{
+    "listSkill": "Express",
+      "listLink": "https://en.wikipedia.org/wiki/Express.js"
+    },
+    {
+      "listSkill": "REST API",
+      "listLink": "https://en.wikipedia.org/wiki/Representational_state_transfer"
+    },
+    {
+      "listSkill": "NodeJS",
+      "listLink": "https://en.wikipedia.org/wiki/Node.js"
+    },
+    {
+      "listSkill": "Git Repository",
+      "listLink": "https://github.com/cdennis27/WebDev-Blog"
+    }],
+    "github": "https://github.com/cdennis27/WebDev-Blog",
+    "work": "work4"
+  },
+  
+  {
+    "name": "Budget Tracker",
+    "link": "https://cdennis27.github.io/budgettrackergroup2/",
+    "image": "/CezarPortfolioR/images/BudgetControlCurrencyExchange.jpg",
+    "alt": "Budget Tracker screenshot",
+    "descriptionTitle": "Monthly budget website.",
+    "description": "Application using BNP Bank API for exchange rates, DayJS for time and date and AdviceSlip API for a 'tip of the day' section. Local Storage used to keep all user input recorded on local machine. Project done in a group utilizing GitHub Projects to organize tasks in an Agile method, similar to JIRA.",
+    "listAssets": [{
+    "listSkill": "Express",
+      "listLink": "https://en.wikipedia.org/wiki/Express.js"
+    },
+    {
+      "listSkill": "REST API",
+      "listLink": "https://en.wikipedia.org/wiki/Representational_state_transfer"
+    },
+    {
+      "listSkill": "NodeJS",
+      "listLink": "https://en.wikipedia.org/wiki/Node.js"
+    },
+    {
+      "listSkill": "Git Repository",
+      "listLink": "https://github.com/cdennis27/WebDev-Blog"
+    }],
+    "github": "https://github.com/cdennis27/WebDev-Blog",
+    "work": "work4"
+  }]}

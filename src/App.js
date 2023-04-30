@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import { Route, Routes } from 'react-router-dom';
 import Charger73 from './pages/Charger73';
+import Projects from './pages/Projects';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/about/:id" element={<About />} />
           <Route path="/contact/:id" element={<Contact />} />
           <Route path="/resume/:id" element={<Resume />} />
+          <Route path="/projects/:id" element={<Projects />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

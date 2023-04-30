@@ -11,7 +11,7 @@ export default function Work() {
   console.log("work");
   console.log(id);
   if (id === "27") {
-    window.scroll({top:450, left:0, behavior: "smooth"});
+    window.scroll({top:1000, left:0, behavior: "smooth"});
   }
   return (
     <div>

@@ -1,13 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Outlet, useParams } from 'react-router-dom';
 import myDrawing from '../assets/images/myDrawing.gif';
 import work1 from '../assets/images/jaceScreenshot.jpg';
+import work2 from '../assets/images/CardealerappScreenshot.jpg';
+import work3 from '../assets/images/Weatherapphomepage.jpg';
+import work4 from '../assets/images/webdevBlog.jpg';
+import projectList from '../assets/files/projectList.json';
 
 export default function Home() {
 
+  const object = projectList.project;
+  console.log(object);
+  console.log(object.map((item, index) => {
+    return (
+      item.name
 
+    )
+  }
+  ));
+  const [projects, setGroup] = useState(object);
+  console.log(`Projects: ${projects}`);
+//reference only below
+  const images = { image: work1, image: work2, image: work3, image: work4 };
+// just for testing below
+  const webLink = projects.map((item, index) => {
+    return (
+      item.work
+    )
+  });
+  console.log(webLink);
+//
   return (
     <section>
+
+
+
       <div className="home-banner">
         <div className="home-banner-left">
           <h1>Software Engineer</h1>
@@ -25,7 +52,7 @@ export default function Home() {
             I acquired experience in design, debug and develop software while
             managing projects and campaigns.</p>
         </div>
-        <a href={`#/home/27`} className="home-banner-about-right">
+        <a href={`#/about/7`} className="home-banner-about-right">
           <div className="home-skills">
             <h2 className="skills">my skills</h2>
             <h2 className="skills-right"><p className='oval'></p></h2>
@@ -57,30 +84,44 @@ export default function Home() {
         </a>
       </div>
       <div name="work" className="home-subtitle">
-        RecentWork
+        Recent Work
       </div>
-      <div className="work-container">
-        <a href="https://jace1971.herokuapp.com/" className="work-container-left">
-          <img className="work-img" src={work1} alt="drawing of me" />
-          <div className="work-overlay"></div>
-        </a>
-        <div className="work-container-right">
-          <div className="work-tag">
-            <h1>Jace</h1>
-            <a href="https://jace1971.herokuapp.com/" className="work-text-container">
-              <p><span className="dark-font-color">E-commerce website. </span>App that allows users to order dishes online at restaurant, using table QR code tag, kitchen side orders board, user authentication and payment structure implemented.</p>
-            </a>
-            <ul className="work-skills">
-              <li><a href="https://www.mongodb.com/mern-stack#:~:text=MERN%20stands%20for%20MongoDB%2C%20Express,MongoDB%20%E2%80%94%20document%20database" target="_blank" rel="noopener noreferrer">MERN</a></li>
-              <li><a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a></li>
-              <li><a href="https://www.google.com/search?q=user+authentication&sxsrf=APwXEddm0LVCHmxmM5KD8oZWgrmxMQV2pA%3A1682533061179&ei=xWpJZMDPCqqdptQPrrW5yAM&ved=0ahUKEwiAxryLlMj-AhWqjokEHa5aDjkQ4dUDCBA&uact=5&oq=user+authentication&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIHCAAQigUQQzIFCAAQgAQyBwgAEIoFEEMyBwgAEIoFEEMyBQgAEIAEMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEOgoIABBHENYEELADSgQIQRgAUN0FWN0FYLMHaAFwAXgAgAFOiAFOkgEBMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp#bsht=Cgdic2h3Y2hwEgQIBDAB" target="_blank" rel="noopener noreferrer">User Auth</a></li>
-              <li><a href="https://stripe.com/" target="_blank" rel="noopener noreferrer">Stripe</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <section>
+
+        {projects.map((item, index) => {
+
+          return (
+            <div key={index} className="work-container">
+              <a href={item.link} target="_blank" rel="noopener noreferrer" className="work-container-left">
+                <img className="work-img" src={item.image} alt={item.alt} />
+                <div className="work-overlay"></div>
+              </a>
+              <div className="work-container-right">
+                <div className="work-tag">
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className='work-item-title'>{item.name}</a>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="work-text-container">
+                    <p><span className="dark-font-color">{item.descriptionTitle} </span>{item.description}</p>
+                  </a>
+                  <ul className="work-skills">
+                    {item.listAssets.map((item, index) => {
+
+                      return (
+                        <li key={index}><a href={item.listLink} target="_blank" rel="noopener noreferrer">{item.listSkill}</a></li>
+                      )
+                    })}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          )
+        })}
+
+
+      </section>
 
       <Outlet />
+
+
     </section>
   )
 }
