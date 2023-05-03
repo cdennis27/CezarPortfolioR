@@ -89,6 +89,21 @@ body {
     color: var(--fontHover);
 }
 
+.scrolled {
+    align-items: center;
+    justify-content: center;
+}
+
+.scrolled li a{
+    background-color: var(--headerDark);
+    box-shadow: var(--boxshadow) 3px 3px 5px 0px;
+    text-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    padding: 25px 2vw 25px 2vw;
+    height: 40px;
+    
+}
+
 .container {
     margin: 1rem;
     font-size: 3rem;

@@ -1,11 +1,29 @@
 import { Link, useResolvedPath, useMatch } from "react-router-dom"
+import React, { useState } from "react"
 let id = 7;
 export default function Navbar() {
     const path = window.location.pathname
-    
+    const [ scrolled, setScrolled ] = useState(false);
+
+
+    const changeNavButtons = () => {
+        console.log(window.scrollY)
+        if (window.scrollY === 1000) {
+            setScrolled(false);
+        } else if (window.scrollY >= 60) {
+            setScrolled(true);
+        }
+        else {
+            setScrolled(false);
+        }
+
+    }
+
+    window.addEventListener("scroll", changeNavButtons);
+
     return <nav className="nav">
         
-        <ul>
+        <ul className={scrolled ? "scrolled" : ""}>
             <CustomLink to={`/home`} onClick={() => scrolls(0)} >Home</CustomLink>
 
             <CustomLink to={"/work"}>Work</CustomLink>
@@ -25,7 +43,7 @@ function scrolls(x) {
     console.log("scrolling");
     console.log(x);
 }
-function CustomLink({ to, children, ... props}) {
+function CustomLink({to, children, ...props}) {
 
     const resolvedPath = useResolvedPath(to)
     
