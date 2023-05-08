@@ -13,6 +13,7 @@
     --black: #000000;
     --red: #ff0000;
     --yellow: #ffff00;
+    --lightGrey: #dcdbe7;
 }
 
 * {
@@ -564,7 +565,7 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    background: var(--white);
+    background: var(--lightGrey);
     color: var(--black);
     font-size: 1rem;
     font-weight: 700;
@@ -578,7 +579,7 @@ body {
     border: none;
     outline: none;
     border-radius: 5px;
-    background: var(--white);
+    background: var(--lightGrey);
     
     
 }
