@@ -48,7 +48,8 @@ export default function Home() {
         <div className="home-banner-about-left">
           <h1>About me</h1>
           <p id="initial">Hi, my name is Cezar Amaral.</p>
-          <p>Since beginning my journey as Software Engineer, I have been working in the automotive and manufacturing business, managing projects, and intermittently working with software and hardware, after a WebDev bootcamp I decided to focus on Software development and have been working with marketing campaigns, work-flow apps and websites.
+          <p>Since beginning my journey as Software Engineer, I have been working in the automotive and manufacturing business, managing projects, and intermittently working with software and hardware.</p>
+          <p>After a WebDev bootcamp I decided to focus on Software development and have been working with marketing campaigns, work-flow apps and websites.
           </p>
           <p>
             <a id="no-style" href={`#/about/7`}> More...</a>
