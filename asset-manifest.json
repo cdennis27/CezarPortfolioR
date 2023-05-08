@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/CezarPortfolioR/static/css/main.94224dc6.css",
-    "main.js": "/CezarPortfolioR/static/js/main.382521e2.js",
+    "main.css": "/CezarPortfolioR/static/css/main.555eb663.css",
+    "main.js": "/CezarPortfolioR/static/js/main.59b3cc66.js",
     "static/media/myDrawing.gif": "/CezarPortfolioR/static/media/myDrawing.75e0b6061505d9e59d9c.gif",
     "static/media/CardealerappScreenshot.jpg": "/CezarPortfolioR/static/media/CardealerappScreenshot.3f7de821ce090e0a6a3c.jpg",
     "static/media/jaceScreenshot.jpg": "/CezarPortfolioR/static/media/jaceScreenshot.eb4de84eefbc29d15ca8.jpg",
     "static/media/Weatherapphomepage.jpg": "/CezarPortfolioR/static/media/Weatherapphomepage.493a3981cefaedf5733e.jpg",
     "static/media/webdevBlog.jpg": "/CezarPortfolioR/static/media/webdevBlog.ea4019aa8405fdd7f58c.jpg",
     "index.html": "/CezarPortfolioR/index.html",
-    "main.94224dc6.css.map": "/CezarPortfolioR/static/css/main.94224dc6.css.map",
-    "main.382521e2.js.map": "/CezarPortfolioR/static/js/main.382521e2.js.map"
+    "main.555eb663.css.map": "/CezarPortfolioR/static/css/main.555eb663.css.map",
+    "main.59b3cc66.js.map": "/CezarPortfolioR/static/js/main.59b3cc66.js.map"
   },
   "entrypoints": [
-    "static/css/main.94224dc6.css",
-    "static/js/main.382521e2.js"
+    "static/css/main.555eb663.css",
+    "static/js/main.59b3cc66.js"
   ]
 }
