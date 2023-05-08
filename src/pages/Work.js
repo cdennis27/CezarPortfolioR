@@ -21,7 +21,7 @@ export default function Work() {
       <div>
         <Charger73 />
       </div>
-      <Contact />
+      
     </div>
   )
 }
