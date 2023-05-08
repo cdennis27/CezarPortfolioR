@@ -7,7 +7,7 @@ export default function Navbar() {
 
 
     const changeNavButtons = () => {
-        console.log(window.scrollY)
+        //console.log(window.scrollY)
         if (window.scrollY === 1000) {
             setScrolled(false);
         } else if (window.scrollY >= 60) {
@@ -40,8 +40,8 @@ export default function Navbar() {
 }
 function scrolls(x) {
     window.scroll({top:x, left:0, behavior: "smooth"});
-    console.log("scrolling");
-    console.log(x);
+    //console.log("scrolling");
+    //console.log(x);
 }
 function CustomLink({to, children, ...props}) {
 
@@ -51,10 +51,10 @@ function CustomLink({to, children, ...props}) {
 
     const path = window.location.hash
 
-    console.log(window.location.hash);
+    //console.log(window.location.hash);
     if (path === "#/work/7") {
         id = 7;
-        document.location = "#/work/27";
+        document.location.hash = "#/work/27";
         scrolls();
         return;
     } else if (path === "#/home/27") {
@@ -63,7 +63,7 @@ function CustomLink({to, children, ...props}) {
         id = 7;
     }
     
-    console.log(id);
+    //console.log(id);
 
     return (
         <li className={isActive ? "active" : ""}>

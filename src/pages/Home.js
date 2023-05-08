@@ -50,7 +50,7 @@ export default function Home() {
           <p>Hi, my name is Cezar Amaral.</p>
           <p>Since beginning my journey as Software Engineer in the late 90's,
             I acquired experience in design, debug and develop software while
-            managing projects and campaigns.</p>
+            managing projects and campaigns in the automotive and manufacturing industries.</p>
         </div>
         <a href={`#/about/7`} className="home-banner-about-right">
           <div className="home-skills">

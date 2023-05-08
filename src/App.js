@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import { Route, Routes } from 'react-router-dom';
 import Charger73 from './pages/Charger73';
 import Projects from './pages/Projects';
+import Footer from './pages/Footer';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
