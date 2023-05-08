@@ -14,6 +14,7 @@
     --red: #ff0000;
     --yellow: #ffff00;
     --lightGrey: #dcdbe7;
+    --lightBlue: #b3d1ff;
 }
 
 * {
@@ -191,7 +192,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;
-    width: 40%;
+    width: 50%;
     height: 100%;
    
 }
@@ -222,7 +223,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     height: 100%;
     padding: 0 0 0 0;
     margin: 0 5vw 0 0;
@@ -612,12 +613,64 @@ body {
     color: var(--fontHover);
 }
 
+.about-page {
+    position: relative;
+    text-indent: 4rem;
+    width: 90%;
+    height: auto;
+    top: 80px;
+    padding: 5vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 5vw 150px 5vw;
+    overflow: hidden;
+    border-radius: 50px;
+    background-image: linear-gradient( 0deg, var(--bgMedium), 15vh, var(--bgDark) 50vh, var(--bgDark) 800px );
+    box-shadow: #2f7b89 7px 7px 5px 0px;
+}
+
+.about-page p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    padding: 5px 0 0px 0;
+    margin: 0 0 0 0;
+    color: var(--fontLight);
+}
+
+#initial {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--lightBlue);
+    padding: 5px 5vw 5px 10vw;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.about-page #initial {
+    padding: 5px 0 5px 0;
+}
 
 
+#no-style {
+    text-decoration: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    height: auto;
+    width: auto;
+    color: var(--fontLight);
+}
 
-
-
-
+.home-banner-about-left #no-style {
+    color: var(--fontMedium);
+    cursor: pointer;
+    padding: 0 0 0 0;
+    text-align: left;
+}
 
 .hidden {
     display: none;

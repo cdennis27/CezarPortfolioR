@@ -20,16 +20,16 @@ export default function Home() {
   ));
   const [projects, setGroup] = useState(object);
   console.log(`Projects: ${projects}`);
-//reference only below
+  //reference only below
   const images = { image: work1, image: work2, image: work3, image: work4 };
-// just for testing below
+  // just for testing below
   const webLink = projects.map((item, index) => {
     return (
       item.work
     )
   });
   console.log(webLink);
-//
+  //
   return (
     <section>
 
@@ -46,11 +46,13 @@ export default function Home() {
       </div>
       <div className="home-banner-about">
         <div className="home-banner-about-left">
-          <h1>About</h1>
-          <p>Hi, my name is Cezar Amaral.</p>
-          <p>Since beginning my journey as Software Engineer in the late 90's,
-            I acquired experience in design, debug and develop software while
-            managing projects and campaigns in the automotive and manufacturing industries.</p>
+          <h1>About me</h1>
+          <p id="initial">Hi, my name is Cezar Amaral.</p>
+          <p>Since beginning my journey as Software Engineer, I have been working in the automotive and manufacturing business, managing projects, and intermittently working with software and hardware, after a WebDev bootcamp I decided to focus on Software development and have been working with marketing campaigns, work-flow apps and websites.
+          </p>
+          <p>
+            <a id="no-style" href={`#/about/7`}> More...</a>
+          </p>
         </div>
         <a href={`#/about/7`} className="home-banner-about-right">
           <div className="home-skills">
@@ -58,24 +60,24 @@ export default function Home() {
             <h2 className="skills-right"><p className='oval'></p></h2>
           </div>
           <div className="home-list-skills">
-            <li className="home-list-skills-item">HTML</li>
-            <li className="home-list-skills-item">CSS</li>
-            <li className="home-list-skills-item">JavaScript</li>
+            <li className="home-list-skills-item">SaaS</li>
+            <li className="home-list-skills-item">GA4</li>
+            <li className="home-list-skills-item">Node.JS</li>
             <li className="home-list-skills-item">React</li>
-            <li className="home-list-skills-item">Node.js</li>
             <li className="home-list-skills-item">Express</li>
-            <li className="home-list-skills-item">OOP</li>
+            <li className="home-list-skills-item">C++</li>
+            <li className="home-list-skills-item">Python</li>
             <li className="home-list-skills-item">MySQL</li>
             <li className="home-list-skills-item">MongoDB</li>
             <li className="home-list-skills-item">MVC</li>
             <li className="home-list-skills-item">MERN</li>
             <li className="home-list-skills-item">Handlebars</li>
-            <li className="home-list-skills-item">JQuery</li>
+            <li className="home-list-skills-item">SMM</li>
             <li className="home-list-skills-item">JSON</li>
-            <li className="home-list-skills-item">ArduinoIDE</li>
+            <li className="home-list-skills-item">Arduino</li>
             <li className="home-list-skills-item">Git</li>
             <li className="home-list-skills-item">GraphQL</li>
-            <li className="home-list-skills-item">SaaS</li>
+            <li className="home-list-skills-item">PWA</li>
             <li className="home-list-skills-item">AWS</li>
             <li className="home-list-skills-item">Agile</li>
 
